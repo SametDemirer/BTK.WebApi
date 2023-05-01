@@ -7,7 +7,7 @@ using Services.Contracts;
 namespace Presentation.Controllers
 {
     [ApiController]
-    [Route("api\books")]
+    [Route("api/books")]
     public class BooksController : ControllerBase
     {
         private readonly IServiceManager _manager;
@@ -96,8 +96,8 @@ namespace Presentation.Controllers
         public IActionResult DeleteOneBook([FromRoute(Name = "id")] int id)
         {
             try
-            { 
-                _manager.BookService.DeleteOneBook(id,false);
+            {
+                _manager.BookService.DeleteOneBook(id, false);
 
                 return NoContent();
             }
@@ -122,7 +122,7 @@ namespace Presentation.Controllers
 
                 bookPatch.ApplyTo(entity);
 
-                _manager.BookService.UpdateOneBook(id,entity,true);
+                _manager.BookService.UpdateOneBook(id, entity, true);
 
                 return NoContent();
             }
