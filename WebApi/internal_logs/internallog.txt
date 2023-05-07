@@ -10,3 +10,12 @@
 2023-05-02 01:42:04.9851 Info Message Template Auto Format enabled
 2023-05-02 01:42:05.1358 Info Registered target NLog.Targets.FileTarget(Name=logfile)
 2023-05-02 01:42:05.1789 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\smtdm\desktop\WebAPI\BTK.WebApi\WebApi\nlog.config
+2023-05-03 02:19:06.1181 Info Message Template Auto Format enabled
+2023-05-03 02:19:06.2358 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-03 02:19:06.2733 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\smtdm\Desktop\WebAPI\BTK.WebApi\WebApi\nlog.config
+2023-05-03 02:21:57.3261 Info Message Template Auto Format enabled
+2023-05-03 02:21:57.4880 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-03 02:21:57.5289 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\smtdm\Desktop\WebAPI\BTK.WebApi\WebApi\nlog.config
+2023-05-07 23:16:32.8525 Info Message Template Auto Format enabled
+2023-05-07 23:16:33.4156 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-05-07 23:16:33.6202 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\smtdm\desktop\WebAPI\BTK.WebApi\WebApi\nlog.config
